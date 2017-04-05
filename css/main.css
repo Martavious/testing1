@@ -1,0 +1,260 @@
+/***********************
+GENERAL
+************************/
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#gallery {
+  max-width: 100%;
+  margin: 0 0 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+
+.carousel {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    left: 575px;
+    top: 300px;
+    position: absolute;
+}
+
+button {
+
+    position: absolute;
+    left: 700px;
+    top: 600px;
+  
+    
+}
+
+
+p {
+  text-align: center;
+  color: green;
+  font-size: 1.5em;
+  font-family: Sansita;
+  
+}
+/*******************
+HEADING
+********************/
+
+header {
+  float: left;
+  padding: 30px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Sansita';
+  margin: 0 0 40px;
+  font-size: 4em;
+  font-weight: normal;
+  text-align: inherit;
+}
+  
+h2 {
+  font-size: 0.75em;
+  margin: 20px 0 0;
+  font-weight: normal;
+}
+  
+
+
+/*********************
+NAVIGATION
+**********************/
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a{
+  font-weight: 800 ;
+  padding: 15px 10px;  
+}
+
+
+
+/******************
+FOOTER
+*******************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 1300px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/*******************
+PAGE: BASEBALL
+********************/
+
+
+
+
+
+/*******************
+PAGE: BASKETBALL
+********************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/*******************
+PAGE: CONTACT
+********************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+}
+
+
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.pn');
+}
+
+
+/*******************
+COLORS
+********************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* green header */
+header {
+  background: #006400;
+  border-color: #006400;
+}
+
+/* nav background on mobile */
+nav {
+  background: #ffff00;
+}
+
+/* logo text */
+h1 {
+  color: #ffff00;
+}
+
+/* links */
+a {
+  color: #006400;
+}
+
+/* nav link */
+nav a, nav a: visited { 
+  color: #fff;
+}
+
+/* selected nav link */ 
+nav a.selected, nav a:hover {
+ color: #000; 
+}
+
+
+/*******************
+NEW STUFF
+********************/
+
+.softball {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    position: absolute;
+    Top: 250px;
+    line-height: 100%;
+    font-size: .80em;
+    left: 800px;
+}
+
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    color: green;
+}
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: green;
+    color: yellow
+}
+
+tr:nth-child(odd) {
+    background-color: yellow;
+    color: green;
+}
+
+#img {
+  margin: 0 0 0 200px;
+  list-style: none;
+}

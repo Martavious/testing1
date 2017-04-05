@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Early College High | Sports Page</title> 
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400i,700,700i,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <style>
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  left: 575px;
+  top: 600px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+ p {
+      
+      }
+</style>
+  </head>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Early College High Sports Page</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="baseball.html">Baseball</a></li> 
+          <li><a href="basketball.html">Basketball</a></li>
+          <li><a href="crosscountry.html">Cross Country</a></li>
+          <li><a href="track.html">Track</a></li>
+          <li><a href="softball.html">Softball</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/numbers-01.jpg">
+         <img src="img/numbers-01.jpg" alt="">
+            </a>
+          </li>
+     </ul>
+      </section>
+    </div>
+  <body>
+    <div class="carousel"></div>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="scripts.js"></script>
+    <button class="button" style="vertical-align:middle"><span>Slide</span></button>
+  
+  
+  
+  </body>
+</html>
